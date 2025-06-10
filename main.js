@@ -2,17 +2,17 @@
 const products = [
     {
         id: 1,
-        name: "Quần jean Huli",
+        name: "Quần dài Huli",
         description: "Quần dài co giãn, năng động.",
         price: 450000,
         image: "https://i.imgur.com/0y8Ftya.png",
         group: "Quần dài",
         details: "Chất liệu: Denim co giãn, phù hợp cho mọi hoạt động.",
         quantityDetails: {
-            "Trắng": {S: 10, M: 15, L: 8},
-            "Đen": {S: 5, M: 12, L: 9},
-            "Nâu": {S: 2, M: 4, L: 6},
-            "Xanh navy": {S: 6, M: 7, L: 5}
+            "Trắng": {XL: 10, XXL: 15, XXXL: 8},
+            "Đen": {XL: 5, XXL: 12, XXXL: 9},
+            "Nâu": {XL: 2, XXL: 4, XXXL: 6},
+            "Xanh navy": {XL: 6, XXL: 7, XXXL: 5}
         },
         quantity: 15,
         images: [
@@ -27,22 +27,22 @@ const products = [
             { name: "Nâu", code: "#7d4c32" },
             { name: "Xanh navy", code: "#344266" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 2,
-        name: "Quần tây Huli",
+        name: "Quần dài Huli",
         description: "Quần dài lịch sự, công sở.",
         price: 520000,
         image: "https://i.imgur.com/fzB6sJp.png",
         group: "Quần dài",
         details: "Chất liệu: Kaki cao cấp, form chuẩn.",
         quantityDetails: {
-            "Đen": {S: 3, M: 7, L: 2},
-            "Xám": {S: 4, M: 6, L: 5},
-            "Nâu": {S: 2, M: 3, L: 2}
+            "Đen": {XL: 3, XXL: 7, XXXL: 2},
+            "Xám": {XL: 4, XXL: 6, XXXL: 5},
+            "Nâu": {XL: 2, XXL: 3, XXXL: 2}
         },
         quantity: 7,
         images: [
@@ -56,22 +56,22 @@ const products = [
             { name: "Xám", code: "#666" },
             { name: "Nâu", code: "#8b4513" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 3,
-        name: "Quần kaki nam",
+        name: "Quần dài Huli",
         description: "Quần dài phong cách trẻ.",
         price: 480000,
         image: "https://i.imgur.com/LRTlCtB.png",
         group: "Quần dài",
         details: "Chất liệu: Kaki, Màu: Đen, Nâu, Be.",
         quantityDetails: {
-            "Be": {S: 4, M: 7, L: 8},
-            "Đen": {S: 5, M: 6, L: 3},
-            "Nâu": {S: 2, M: 2, L: 6}
+            "Be": {XL: 4, XXL: 7, XXXL: 8},
+            "Đen": {XL: 5, XXL: 6, XXXL: 3},
+            "Nâu": {XL: 2, XXL: 2, XXXL: 6}
         },
         quantity: 12,
         images: [
@@ -85,21 +85,21 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Nâu", code: "#7d4c32" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 2,
         defaultSize: 1
     },
     {
         id: 4,
-        name: "Quần jogger Huli",
+        name: "Quần dài Huli",
         description: "Quần dài thể thao.",
         price: 399000,
         image: "https://i.imgur.com/nt7yYV5.png",
         group: "Quần dài",
         details: "Chất liệu: Thun, Màu: Đen, Ghi.",
         quantityDetails: {
-            "Đen": {S: 7, M: 8, L: 4},
-            "Ghi": {S: 6, M: 7, L: 6}
+            "Đen": {XL: 7, XXL: 8, XXXL: 4},
+            "Ghi": {XL: 6, XXL: 7, XXXL: 6}
         },
         quantity: 19,
         images: [
@@ -112,21 +112,21 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Ghi", code: "#b0b0b0" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 5,
-        name: "Quần âu basic",
+        name: "Quần dài Huli",
         description: "Quần dài công sở.",
         price: 550000,
         image: "https://i.imgur.com/s3b7wF6.png",
         group: "Quần dài",
         details: "Chất liệu: Vải Âu, Màu: Xám, Đen.",
         quantityDetails: {
-            "Xám": {S: 3, M: 5, L: 2},
-            "Đen": {S: 2, M: 4, L: 4}
+            "Xám": {XL: 3, XXL: 5, XXXL: 2},
+            "Đen": {XL: 2, XXL: 4, XXXL: 4}
         },
         quantity: 10,
         images: [
@@ -139,22 +139,22 @@ const products = [
             { name: "Xám", code: "#888" },
             { name: "Đen", code: "#222" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 6,
-        name: "Quần short nam basic",
+        name: "Quần đùi Huli",
         description: "Quần đùi nam thoải mái.",
         price: 330000,
         image: "https://i.imgur.com/9Wfukqu.png",
         group: "Quần đùi",
         details: "Chất liệu: Cotton, Màu sắc trẻ trung.",
         quantityDetails: {
-            "Trắng": {S: 9, M: 10, L: 6},
-            "Đen": {S: 7, M: 8, L: 7},
-            "Xanh": {S: 8, M: 7, L: 10}
+            "Trắng": {XL: 9, XXL: 10, XXXL: 6},
+            "Đen": {XL: 7, XXL: 8, XXXL: 7},
+            "Xanh": {XL: 8, XXL: 7, XXXL: 10}
         },
         quantity: 25,
         images: [
@@ -168,21 +168,21 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Xanh", code: "#0097a7" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 2,
         defaultSize: 1
     },
     {
         id: 7,
-        name: "Quần short nam thể thao",
+        name: "Quần đùi Huli",
         description: "Quần đùi nam thể thao năng động.",
         price: 340000,
         image: "https://i.imgur.com/5sZ9ZP7.png",
         group: "Quần đùi",
         details: "Chất vải mềm, thoáng mát.",
         quantityDetails: {
-            "Đen": {S: 6, M: 7, L: 3},
-            "Xám": {S: 4, M: 6, L: 6}
+            "Đen": {XL: 6, XXL: 7, XXXL: 3},
+            "Xám": {XL: 4, XXL: 6, XXXL: 6}
         },
         quantity: 16,
         images: [
@@ -195,21 +195,21 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Xám", code: "#888" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 8,
-        name: "Quần short jean nam",
+        name: "Quần đùi Huli",
         description: "Quần đùi jean nam trẻ trung.",
         price: 370000,
         image: "https://i.imgur.com/V1j0Y7B.png",
         group: "Quần đùi",
         details: "Chất liệu: Denim, Form ngắn trẻ trung.",
         quantityDetails: {
-            "Xanh": {S: 7, M: 5, L: 5},
-            "Đen": {S: 2, M: 3, L: 3}
+            "Xanh": {XL: 7, XXL: 5, XXXL: 5},
+            "Đen": {XL: 2, XXL: 3, XXXL: 3}
         },
         quantity: 13,
         images: [
@@ -222,21 +222,21 @@ const products = [
             { name: "Xanh", code: "#344266" },
             { name: "Đen", code: "#222" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 9,
-        name: "Quần short thể thao nam",
+        name: "Quần đùi Huli",
         description: "Quần đùi thể thao nam.",
         price: 290000,
         image: "https://i.imgur.com/0y8Ftya.png",
         group: "Quần đùi",
         details: "Chất liệu: Poly co giãn, thấm hút mồ hôi.",
         quantityDetails: {
-            "Đen": {S: 10, M: 10, L: 10},
-            "Cam": {S: 2, M: 2, L: 2}
+            "Đen": {XL: 10, XXL: 10, XXXL: 10},
+            "Cam": {XL: 2, XXL: 2, XXXL: 2}
         },
         quantity: 30,
         images: [
@@ -249,22 +249,22 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Cam", code: "#e67e22" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     },
     {
         id: 10,
-        name: "Quần short vải đũi nam",
+        name: "Quần đùi Huli",
         description: "Quần đùi vải đũi nam mặc nhà mát.",
         price: 310000,
         image: "https://i.imgur.com/fzB6sJp.png",
         group: "Quần đùi",
         details: "Chất liệu: Đũi tự nhiên, siêu nhẹ.",
         quantityDetails: {
-            "Trắng": {S: 2, M: 2, L: 2},
-            "Đen": {S: 2, M: 1, L: 1},
-            "Xanh": {S: 1, M: 1, L: 0}
+            "Trắng": {XL: 2, XXL: 2, XXXL: 2},
+            "Đen": {XL: 2, XXL: 1, XXXL: 1},
+            "Xanh": {XL: 1, XXL: 1, XXXL: 0}
         },
         quantity: 8,
         images: [
@@ -278,7 +278,7 @@ const products = [
             { name: "Đen", code: "#222" },
             { name: "Xanh", code: "#344266" }
         ],
-        sizes: ["S", "M", "L"],
+        sizes: ["XL", "XXL", "XXXL"],
         defaultColor: 0,
         defaultSize: 1
     }
